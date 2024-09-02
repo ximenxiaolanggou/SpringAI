@@ -1,0 +1,16 @@
+server:
+  servlet:
+    context-path: /api/openai
+
+spring:
+  ai:
+    openai:
+      base-url: https://xiaoai.plus
+      # api-key: sk-MEAE4S54WevoT233E268E656B4A84b04A7E8353aB90a5bBf # GPT 3
+      api-key: sk-E7EcSqHEoUr5DroQD397F836B8B247D18d4fDbBe173b29Df # GPT 4
+#      image:
+#        options:
+#          size: 512
+#      chat:
+#        options:
+#          model: gpt-3.5-turbo # ??AI maven????????????

@@ -1,0 +1,7 @@
+spring:
+  ai:
+    ollama:
+      base-url: http://192.168.111.222:11434
+      chat:
+        options:
+          model: qwen:0.5b-chat
